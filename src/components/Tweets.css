@@ -1,0 +1,113 @@
+body {
+	background-color: #e6ecf0;
+}
+
+.tweet {
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	height: 150px;
+	width: 80%;
+	position: relative;
+	background-color: #ffffff;
+}
+
+.author {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.author strong {
+	position: absolute;
+	top: 40px;
+	margin-left: 10px;
+}
+
+.author img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.content {
+	text-align: left;
+	color: #222;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.date {
+	color: #aaa;
+	font-size: 14px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.twitter-logo img {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+}
+
+.createTweet {
+	margin: 20px auto;
+	background-color: #f5f5f5;
+	width: 86%;
+	height: 225px;
+	border: 1px solid #aaa;
+}
+
+.createTweet header {
+	color: white;
+	font-weight: bold;
+	background-color: #2aa3ef;
+	border-bottom: 1px solid #aaa;
+	padding: 20px;
+}
+
+.createTweet section {
+	padding: 20px;
+	display: flex;
+}
+
+.createTweet section img {
+	border-radius: 50%;
+	margin: 10px;
+	height: 50px;
+}
+
+textarea {
+	border: 1px solid #ddd;
+	height: 80px;
+	width: 100%;
+}
+
+.publish {
+	margin-bottom: 20px;
+}
+
+.publish button {
+	cursor: pointer;
+	border: 1px solid #2aa3ef;
+	background-color: #2aa3ef;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+.delete {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+}
+
+.edit {
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
+	cursor: pointer;
+}
