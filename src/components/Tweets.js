@@ -1,4 +1,7 @@
 import React from "react"
+import Tweet from "./Tweet"
+import Query from "./Query"
+import { QUERY_GET_TWEETS } from "../graphql/queries"
 import "./Tweets.css"
 import TwitterLogo from "../assets/twitter.svg"
 
@@ -18,6 +21,7 @@ class Tweets extends React.Component {
 						<textarea autoFocus className='editTextarea' value='' onChange='' />
 					</div>
 				</div>
+				<Query query={QUERY_GET_TWEETS} render={Tweet} />
 			</div>
 		)
 	}
